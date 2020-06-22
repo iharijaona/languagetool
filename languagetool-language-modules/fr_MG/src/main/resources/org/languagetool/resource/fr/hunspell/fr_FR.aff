@@ -1,0 +1,37 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+
+# AFFIXES DU DICTIONNAIRE ORTHOGRAPHIQUE FRANÇAIS “TOUTES VARIANTES” v6.1
+# par Olivier R. -- licence MPL 2.0
+# Généré le 10-06-2017 à 13:32
+# Pour améliorer le dictionnaire, allez sur http://www.dicollecte.org/
+
+
+
+SET UTF-8
+
+WORDCHARS -’'1234567890
+
+
+TRY abdefghijklmnoprstvyzABDEFGHIJKLMNOPRSTVYZôÔ
+
+FLAG long
+
+FULLSTRIP
+
+PFX FI Y 2
+PFX FI 0 fi .
+PFX FI 0 FI .
+
+PFX MP Y 2
+PFX MP 0 mpi .
+PFX MP 0 MPI .
+
+PFX MI Y 2
+PFX MI 0 mi .
+PFX MI 0 MI .
+
+SFX AN Y 2
+SFX AN a ana .
+SFX AN a ANA .

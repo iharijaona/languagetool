@@ -1,0 +1,70 @@
+SET UTF-8
+
+FLAG long
+
+TRY esianrtoldgmphbyfvkzESIANRTOLDGMPHBYFVKZ'-
+
+MAP 21
+MAP aàâäAÀÂÄ
+MAP eéèêëEÉÈÊË
+MAP iîïyIÎÏY
+MAP oôöOÔÖ
+MAP bB
+MAP dD
+MAP fF
+MAP gG
+MAP hH
+MAP jJ
+MAP kK
+MAP lL
+MAP mM
+MAP nN
+MAP pP
+MAP rR
+MAP sS
+MAP tT
+MAP vV
+MAP zZ
+MAP yY
+
+BREAK 7
+BREAK -
+BREAK .
+BREAK ·
+BREAK ^'
+BREAK ^‘
+BREAK '$
+BREAK ’$
+
+REP 6
+REP p mp
+REP mp p
+REP nt t
+REP t nt
+REP ina$ ana
+REP ana$ ina
+
+PFX VO N 1
+PFX VO 0 voa .
+
+PFX FI Y 1
+PFX FI 0 fi .
+
+PFX FA Y 1
+PFX FA n f .
+PFX FA h f .
+
+SFX VA Y 1
+SFX VA 0 va .
+
+SFX HV N 1
+SFX HV 0 h .
+SFX HV 0 ho .
+
+SFX IN N 2
+SFX IN 0 ina [^y]
+SFX IN y ina y
+
+SFX AN Y 2
+SFX AN 0 na a
+SFX AN 0 ana [^a]

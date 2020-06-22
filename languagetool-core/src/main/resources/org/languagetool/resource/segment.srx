@@ -4900,8 +4900,38 @@
 <afterbreak>\p{Lu}\p{Ll}</afterbreak>
 </rule>
 </languagerule>
+
 <languagerule languagerulename="French">
 <!-- French abbreviations -->
+<rule break="no">
+<beforebreak>\b(art|app|cf|chap|e(nv|tc)|fém|fig|masc|p|sing|suiv|suppl|tél)\.\s</beforebreak>
+<afterbreak>\p{Ll}</afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\b(etc)\.\)\s</beforebreak>
+<afterbreak></afterbreak>
+</rule>
+<rule break="no">
+<beforebreak>\b(ave?|boul|Mr?|MM?)\.\s</beforebreak>
+<afterbreak></afterbreak>
+</rule>
+<!-- Break rules -->
+<rule break="yes">
+<beforebreak>[\.!?…][\u0002|'|"|«|\)|\]|\}¹²³]?\s+</beforebreak>
+<afterbreak></afterbreak>
+</rule>
+<rule break="yes">
+<beforebreak>[\.!?…]['"\p{Pe}\u00BB\u201D]?</beforebreak>
+<afterbreak>\p{Lu}[^\p{Lu}]</afterbreak>
+</rule>
+<rule break="yes">
+<beforebreak>\s\p{L}[\.!?…]\s</beforebreak>
+<afterbreak>\p{Lu}\p{Ll}</afterbreak>
+</rule>
+</languagerule>
+
+<languagerule languagerulename="Malagasy">
+<!-- Malagasy abbreviations -->
 <rule break="no">
 <beforebreak>\b(art|app|cf|chap|e(nv|tc)|fém|fig|masc|p|sing|suiv|suppl|tél)\.\s</beforebreak>
 <afterbreak>\p{Ll}</afterbreak>

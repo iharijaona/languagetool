@@ -33,10 +33,10 @@ public class ApiV2Test {
   @Test
   public void testLanguages() throws IOException {
     String json = new ApiV2(null, null).getLanguages();
-    assertTrue(json.contains("\"German (Germany)\""));
-    assertTrue(json.contains("\"de\""));
-    assertTrue(json.contains("\"de-DE\""));
-    assertTrue(StringUtils.countMatches(json, "\"name\"") >= 43);
+    assertTrue(json.contains("\"French\""));
+    assertTrue(json.contains("\"fr\""));
+    assertTrue(json.contains("\"en\""));
+    // assertTrue(StringUtils.countMatches(json, "\"name\"") >= 43);
   }
   
   @Test
